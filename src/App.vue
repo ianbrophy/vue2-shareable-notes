@@ -1,6 +1,8 @@
 <template>
   <div class="container mt-4">
     <h3 class="mb-3">Shareable Notes</h3>
+    <p> Type your notes in the textarea below.</p>
+    <p>To share these notes, or bring them to a new browser, copy and paste the full url (incuding the data paramter and its value)</p>
     <textarea
       class="form-control"
       rows="10"
