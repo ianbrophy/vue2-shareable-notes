@@ -10,12 +10,13 @@ export default defineConfig({
     vue2(),
     legacy({
       targets: ['ie >= 11'],
-      additionalLegacyPolyfills: ['regenerator-runtime/runtime']
-    })
+      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
+    }),
   ],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: '/vue2-shareable-notes/'
 })
